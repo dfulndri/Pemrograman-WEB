@@ -11,33 +11,27 @@ It tells the browser how to display text, images, links, and other content on a 
 
 ## TAG HTML
 
-1. <div>
+1. `<div>` 
+Div is like a container. It groups other elements together to organize the webpage layout.
 
-➔ Div is like a container. It groups other elements together to organize the webpage layout.
+2. `<a>`
+Stands for anchor. It's used to create links to other pages or websites.
 
-2. <a>
+3. `<p>`
+Stands for paragraph. It’s used to write blocks of text.
 
-➔ Stands for anchor. It's used to create links to other pages or websites.
+4. `<h1> - <h6>`
+These are headings.
 
-3. <p>
+- `<h1>` = the biggest, most important title.
 
-➔ Stands for paragraph. It’s used to write blocks of text.
+- `<h6>` = the smallest, least important title.
 
-4. <h1> - <h6>
+5. `<form>`
+Used to create forms — like for login, register, or contact us.
 
-➔ These are headings.
-
-- <h1> = the biggest, most important title.
-
-- <h6> = the smallest, least important title.
-
-5. <form>
-
-➔ Used to create forms — like for login, register, or contact us.
-
-6. <img>
-
-➔ Stands for image. It’s used to insert pictures on a website.
+6. `<img>`
+Stands for image. It’s used to insert pictures on a website.
 
 
 # Nginx

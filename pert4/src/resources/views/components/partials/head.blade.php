@@ -14,15 +14,15 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <meta name="keywords" content="{{ $seo->keywords ?? 'Default, Keywords' }}">
 
-    @if (!empty($seo->canonical_url))
+    {{-- @if (!empty($seo->canonical_url))
         <link rel="canonical" href="{{ $seo->canonical_url }}">
-    @endif
+    @endif --}}
 
-    <meta name="robots" content="{{ $seo->robots ?? 'index, follow' }}">
+    {{-- <meta name="robots" content="{{ $seo->robots ?? 'index, follow' }}">
 
     @if (!empty($seo->og_image))
         <meta property="og:image" content="{{ asset('storage/' . $seo->og_image) }}">
-    @endif
+    @endif --}}
 
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
